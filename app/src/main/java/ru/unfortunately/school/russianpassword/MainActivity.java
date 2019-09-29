@@ -36,11 +36,7 @@ public class MainActivity extends Activity {
     private SeekBar generateSeekBar;
     private TextView changedLengthText;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
+    private void initView(){
         sourceEditText = findViewById(R.id.edit_src);
         resultTextView = findViewById(R.id.text_result);
         russians = getResources().getStringArray(R.array.russians);
@@ -57,7 +53,13 @@ public class MainActivity extends Activity {
         generateTextView = findViewById(R.id.text_generated);
         generateSeekBar = findViewById(R.id.generate_seek_bar);
         changedLengthText = findViewById(R.id.changed_length_text);
+    }
 
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        initView();
         copyGenerateButton.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
