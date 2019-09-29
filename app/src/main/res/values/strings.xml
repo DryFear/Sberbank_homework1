@@ -1,12 +1,22 @@
 <resources>
     <string name="app_name">RussianPassword</string>
-    <string name="enter_password">Введите свой пароль на русском</string>
+    <string name="enter_password">Введите свой пароль на русском, чтобы получить его на латинской раскладке</string>
     <string name="clipboard_title">password</string>
     <string name="toast_copied">Скопировано</string>
     <string name="check_caps">Заглавные</string>
     <string name="check_symbols">Спецсимволы</string>
     <string name="check_numbers">Цифры</string>
     <string name="generateButton">Сгенерировать</string>
+    <string name="start_text_weakness">(Здесь отобразится СИЛА пароля)</string>
+    <string name="title_change_password">PointToSwitcher</string>
+    <string name="title_generating">Сгеренируй себе новый пароль</string>
+    <string name="size_password_genetate">Размер пароля:</string>
+    <string name="edittext_default_value">(Вводите свой пароль сюда)</string>
+    <string name="output_default_value">Здесь будет ваш пароль на латинице</string>
+    <string name="upper_checkboxes_text">Выбери, какие типы символов хочешь добавить в новый пароль:</string>
+    <string name="default_text_under_seek_bar">Выбранная длина 0 символов</string>
+    <string name="copied_desc">Copied!</string>
+    <string name="text_under_seek_bar">Выбранная длина</string>
 
     <plurals name="symbols_count">
         <item quantity="one">символ</item>
@@ -15,6 +25,17 @@
         <item quantity="many">символов</item>
         <item quantity="other">символов</item>
     </plurals>
+
+    <string-array name="weakness_conditions">
+        <item>Очень плохой</item>
+        <item>Плохой</item>
+        <item>Ниже среднего</item>
+        <item>Средний</item>
+        <item>Пойдет)</item>
+        <item>Хороший</item>
+        <item>Прекрасный!!</item>
+    </string-array>
+
     <string-array name="russians">
         <item>й</item>
         <item>ц</item>

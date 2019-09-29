@@ -9,8 +9,17 @@
     </style>
 
 
-    <style name="MyStyle">
+    <style name="Titles">
         <item name="android:gravity">center_horizontal</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Output_passwords_style">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/result_margin</item>
+        <item name="android:layout_marginBottom">@dimen/result_margin</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
     </style>
 
 </resources>

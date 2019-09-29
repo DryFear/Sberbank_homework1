@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="activity_padding">8dp</dimen>
+    <dimen name="activity_padding">16dp</dimen>
     <dimen name="result_margin">16dp</dimen>
     <dimen name="copy_image_pudding">8dp</dimen>
+    <dimen name="weakness_bar_height">32dp</dimen>
+    <dimen name="weakness_bar_width">140dp</dimen>
+    <dimen name="relative_layout_margin">12dp</dimen>
+    <dimen name="major_margin">32dp</dimen>
 </resources>
